@@ -10,7 +10,7 @@ int maxSum(int arr[],int n)
     for(int i=0;i<n;i++)
     {
         maxEnding=max(maxEnding+arr[i],arr[i]);
-        res=max(res,maxEnding);
+         res=max(res,maxEnding);
     }
     
     return res;
