@@ -24,19 +24,20 @@ return -1 ; // base condition if the element is not present in the array
 
 
 int main(){
-    int n; // we input the size of the array 
+    int n ; // we input the size of the array 
     cout << "Enter the size of the array : " << endl ; 
     cin>>n; 
     vector<int>v;  // we make the vector array  
-    int ele; 
+    int  ele; 
     for(int i = 0 ; i<n; i++){// taking the input of the array elements 
         cout << "Enter the element : " ; 
         cin>>ele; 
         v.push_back(ele); 
     }
-      int m ; // taking the input of the element to be found
-      cout << "Enter the element : "; 
+      int  m ; // taking the input of the element to be found
+      cout << "Enter the element to be found  : "; 
       cin>>m;
     cout <<  binarysearch(v,n,m); 
+    
 
 }
